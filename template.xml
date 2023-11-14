@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>willow-application-server</Name>
+  <Repository>ghcr.io/toverainc/willow-application-server</Repository>
+  <Registry>https://ghcr.io/toverainc/willow-application-server</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>HomeAutomation:</Category>
+  <WebUI>http://[IP]:[PORT:8502]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://heywillow.io/images/logo-purple.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1699928739</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="8502" Default="8502" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8502</Config>
+  <Config Name="AppData Config Path" Target="/app/storage" Default="/mnt/user/appdata/willow-application-server" Mode="rw" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/willow-application-server</Config>
+</Container>
