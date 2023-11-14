@@ -13,7 +13,7 @@
   <Category>HomeAutomation:</Category>
   <WebUI>http://[IP]:[PORT:8502]/</WebUI>
   <TemplateURL/>
-  <Icon>https://heywillow.io/images/logo-purple.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/Bobstin/willow-application-server/main/assets/willow-logo-purple.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
